@@ -6,7 +6,7 @@
 <style>
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 30%;
 }
 
 th, td {
@@ -17,7 +17,8 @@ th, td {
 
 
 .header {
-  color: black;
+  color: white;
+  background-color: black;
   border-bottom:1pt solid black;
 }
 
@@ -37,7 +38,7 @@ th, td {
 </head>
 
 <body>
-  <h1>Cool Table</h1>
+  <h1>HTML Table From a Pandas DataFrame!</h1>
 
 <div style="overflow-x:auto;">
 
@@ -45,33 +46,28 @@ th, td {
   <thead>
     <tr class = "header">
       <th class = "text_column">Fruit</th>
-      <th class = "number_column">Column 1</th>
-      <th class = "number_column">Column 2</th>
-      <th class = "number_column">Column 3</th>
+      <th class = "number_column">Price</th>
+      <th class = "number_column">Weight</th>
     </tr>
   </thead>
   <tbody>
 
 <tr> 
  <td class = "text_column">apples</td>
- <td class = "number_column">1</td>
- <td class = "number_column">0</td>
- <td class = "number_column">0</td>
+ <td class = "number_column">0.5</td> <td class = "number_column">3.2</td> 
+ </tr>
 <tr style="background-color:#f2f2f2"> 
- <td class = "text_column">apples</td>
- <td class = "number_column">2</td>
- <td class = "number_column">0</td>
- <td class = "number_column">2</td>
+ <td class = "text_column">oranges</td>
+ <td class = "number_column">1.12</td> <td class = "number_column">5.6</td> 
+ </tr>
 <tr> 
- <td class = "text_column">oranges</td>
- <td class = "number_column">2</td>
- <td class = "number_column">1</td>
- <td class = "number_column">1</td>
+ <td class = "text_column">pears</td>
+ <td class = "number_column">0.85</td> <td class = "number_column">2.2</td> 
+ </tr>
 <tr style="background-color:#f2f2f2"> 
- <td class = "text_column">oranges</td>
- <td class = "number_column">0</td>
- <td class = "number_column">1</td>
- <td class = "number_column">1</td>
+ <td class = "text_column">avocados</td>
+ <td class = "number_column">1.9</td> <td class = "number_column">3.1</td> 
+ </tr>
   </tbody>
   </table>
 
